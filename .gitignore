@@ -1,3 +1,16 @@
 *.log
 bin/
 build/
+translate/new_en_849-2.txt
+translate/new_en_849-3.txt
+translate/new_en_849-4.txt
+translate/new_en_849-5.txt
+translate/new_en_849.txt
+translate/new_ru_849-2.txt
+translate/new_ru_849-3.txt
+translate/new_ru_849-4.txt
+translate/new_ru_849-5.txt
+translate/new_ru_849-6.txt
+translate/new_ru_849-7.txt
+translate/new_ru_849-8.txt
+translate/new_ru_849.txt
