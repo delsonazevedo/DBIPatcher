@@ -504,6 +504,7 @@ FTP027=Erro ao definir flags do soquete: {}
 FTP028=Parando escuta em {}:{}
 FTP029=Erro de aceitação de conexão: {}
 FTP030=Conexão aceita de {}:{}
+FTP030_2=Conexão aceita de {}:{}
 FTP031=Sem memória ao enviar resposta
 FTP032=Erro de envio: {}
 FTP033=Enviados {}/{} bytes

@@ -3668,6 +3668,15 @@ key=0x4d51a773997bfd4f;id=FTP030                                  // [47 ]: 'П�
 	dat=0x00636828;offset=32;len=8;imm=0xCF8019A3B9CE2DF7
 	dat=0x00636830;offset=40;len=7;imm=0x51DA08A306866F
 
+key=0x979b9bc9614fa3e1;id=FTP030_2                                // [47 ]: 'Принято соединение от {}:{}'
+// at 0x00635FD8 diff=47
+	dat=0x00635FD8;offset=0;len=8;imm=0x2A4B2319E19E3C31
+	dat=0x00635FE0;offset=8;len=8;imm=0x46BB2519E39E2C30
+	dat=0x00635FE8;offset=16;len=8;imm=0x472F4B7CB1F17360
+	dat=0x00635FF0;offset=24;len=8;imm=0x47264B7CB1F27359
+	dat=0x00635FF8;offset=32;len=8;imm=0x154A251941FA7359
+	dat=0x00636000;offset=40;len=7;imm=0x9BE6B25B32D8C1
+
 key=0x49b1199b37f32567;id=FTP031                                  // [71 ]: 'Закончилась память при посылке ответа'
 // at 0x006358B8 diff=71
 	dat=0x006358B8;offset=0;len=8;imm=0xF761A34B8723B2B7
@@ -4675,6 +4684,18 @@ key=0x851be9733dc5f399;id=INS047                                  // [68 ]: 'Con
 	dat=0x00631160;offset=56;len=8;imm=0x55AB39C1ED45222C
 	dat=0x00631168;offset=64;len=4;imm=0x3D752324
 
+key=0xe31bf16fe7df7f11;id=INS048                                  // [71 ]: 'Удаление ранее установленных файлов...'
+// at 0x00631200 diff=71
+	dat=0x00631200;offset=0;len=8;imm=0x58CB41BF530FDCC1
+	dat=0x00631208;offset=8;len=8;imm=0x56CB49BF5A0FCAC1
+	dat=0x00631210;offset=16;len=8;imm=0x33A621DF375FAE31
+	dat=0x00631218;offset=24;len=8;imm=0x62CA72BEC76AAFA4
+	dat=0x00631220;offset=32;len=8;imm=0x5DCB4CBF570FFDC0
+	dat=0x00631228;offset=40;len=8;imm=0x5ECB44BF5C0FCDC1
+	dat=0x00631230;offset=48;len=8;imm=0x323B74BE6C0EC2C1
+	dat=0x00631238;offset=56;len=8;imm=0x33A021D6376FAF95
+	dat=0x00631240;offset=64;len=7;imm=0x1BDF41C96DAFAF
+
 key=0x3f0d4da7b9094ff3;id=INS049                                  // [46 ]: 'Регистрация контента {}...'
 // at 0x006312A8 diff=46
 	dat=0x006312A8;offset=0;len=8;imm=0x87DDFE770CD9EF23
@@ -5438,6 +5459,25 @@ key=0x5d7f715f93912dc3;id=MMV023                                  // [310]: 'В 
 	dat=0x00640728;offset=296;len=8;imm=0x2E06227F24419513
 	dat=0x00640730;offset=304;len=6;imm=0x7171D7DF6C8D
 
+key=0x31bbbf05a3094d1f;id=MTP002                                  // [125]: 'Пожалуйста, подключите вашу консоль к ПК кабелем USB Type-C или нажмите B'
+// at 0x00640CC8 diff=125
+	dat=0x00640CC8;offset=0;len=8;imm=0x816B09D51DD9D2CF
+	dat=0x00640CD0;offset=8;len=8;imm=0xB06A06D520D8F6CF
+	dat=0x00640CD8;offset=16;len=8;imm=0x8E6B9F2913D9CFCE
+	dat=0x00640CE0;offset=24;len=8;imm=0x8A6B05D517D9F3CF
+	dat=0x00640CE8;offset=32;len=8;imm=0xB36A07D524D8C3CE
+	dat=0x00640CF0;offset=40;len=8;imm=0xE00B6FB77329F8CF
+	dat=0x00640CF8;offset=48;len=8;imm=0x8F6B05D5838A9C97
+	dat=0x00640D00;offset=56;len=8;imm=0x8A6B01D522D8F0CF
+	dat=0x00640D08;offset=64;len=8;imm=0xAE6B9FBF7329C1CE
+	dat=0x00640D10;offset=72;len=8;imm=0xE10B6FBF7329D7CF
+	dat=0x00640D18;offset=80;len=8;imm=0xE10E6FBE73BC9DAE
+	dat=0x00640D20;offset=88;len=8;imm=0x48EF9F47F05C6DA3
+	dat=0x00640D28;offset=96;len=8;imm=0xE1036F25E024286F
+	dat=0x00640D30;offset=104;len=8;imm=0x816B02D583B19DA4
+	dat=0x00640D38;offset=112;len=8;imm=0xB36A07D51FD9FBCF
+	dat=0x00640D40;offset=120;len=5;imm=0x05E129F8CF
+
 key=0xe9e38753b99fb37f;id=MTP003_1                                // [36 ]: 'Ожидание: {} секунда'
 // at 0x00640D48 diff=36
 	dat=0x00640D48;offset=0;len=8;imm=0x5D333F830F4F2DAF
@@ -5445,6 +5485,22 @@ key=0xe9e38753b99fb37f;id=MTP003_1                                // [36 ]: 'О�
 	dat=0x00640D58;offset=16;len=8;imm=0x39625673C4E49345
 	dat=0x00640D60;offset=24;len=8;imm=0x395E57D0682563CA
 	dat=0x00640D68;offset=32;len=4;imm=0xB92F63CB
+
+key=0x29adcf77d9992fab;id=MTP003_2                                // [36 ]: 'Ожидание: {} секунды'
+// at 0x00640D70 diff=36
+	dat=0x00640D70;offset=0;len=8;imm=0x9D7D77A76F49B17B
+	dat=0x00640D78;offset=8;len=8;imm=0x9C7D77A764499F7B
+	dat=0x00640D80;offset=16;len=8;imm=0xF92C1E57A4E20F91
+	dat=0x00640D88;offset=24;len=8;imm=0xF9101FF40823FF1E
+	dat=0x00640D90;offset=32;len=4;imm=0xD912FE1F
+
+key=0xa77d0f3d230fef03;id=MTP003_5                                // [34 ]: 'Ожидание: {} секунд'
+// at 0x00640D98 diff=34
+	dat=0x00640D98;offset=0;len=8;imm=0x13ADB7ED95DF71D3
+	dat=0x00640DA0;offset=8;len=8;imm=0x12ADB7ED9EDF5FD3
+	dat=0x00640DA8;offset=16;len=8;imm=0x77FCDE1D5E74CF39
+	dat=0x00640DB0;offset=24;len=8;imm=0x77C0DFBEF2B53FB6
+	dat=0x00640DB8;offset=32;len=2;imm=0xEFB7
 
 key=0x8d152ff545f39d19;id=MTP004                                  // [44 ]: 'Создаётся MTP хранилище: '
 // at 0x00640C50 diff=44
@@ -5924,6 +5980,14 @@ key=0xefefb3655d194d1d;id=MTP057_2                                // [39 ]: 'Н�
 	dat=0x00634930;offset=24;len=8;imm=0x5A3F0EB5EDC9CDCC
 	dat=0x00634938;offset=32;len=7;imm=0xEF3CB4E5C9F0CD
 
+key=0x51a747afffff1fc1;id=MTP057_5                                // [39 ]: 'Найдено {} сохранений'
+// at 0x00634940 diff=39
+	dat=0x00634940;offset=0;len=8;imm=0xE577FE7F4F2F8211
+	dat=0x00634948;offset=8;len=8;imm=0x2A87F97F422FAA11
+	dat=0x00634950;offset=16;len=8;imm=0xD476F97F7E2E3FBC
+	dat=0x00634958;offset=24;len=8;imm=0xE477FA7F4F2F9F10
+	dat=0x00634960;offset=32;len=7;imm=0xA7FE7F472FA211
+
 key=0x4783c7630bd7096b;id=MTP065                                  // [78 ]: 'Невозможно получить список пользователей'
 // at 0x00634540 diff=78
 	dat=0x00634540;offset=0;len=8;imm=0xF95375B3BE0794BB
@@ -5963,6 +6027,12 @@ key=0xcbd72f23815957f7;id=MTP066_5                                // [45 ]: 'Н�
 	dat=0x00634608;offset=24;len=8;imm=0x790791F33689DB26
 	dat=0x00634610;offset=32;len=8;imm=0x70079AF30388E727
 	dat=0x00634618;offset=40;len=5;imm=0x233889E227
+
+key=0xc59757213551cdf1;id=MTP067                                  // [20 ]: 'UID: {}, Ник: {}'
+// at 0x00634620 diff=20
+	dat=0x00634620;offset=0;len=8;imm=0xE9EA2C010F1584A4
+	dat=0x00634628;offset=8;len=8;imm=0xFF2D8799E5CC1DD1
+	dat=0x00634630;offset=16;len=4;imm=0x352CB6D1
 
 key=0x61750da92f7fef63;id=MTP068                                  // [63 ]: 'Удаляются все сохранения для игры'
 // at 0x006347B0 diff=63
@@ -11105,7 +11175,7 @@ key=0x4ff51f3a3a93946b;id=CV064                                   // [8  ]: 'Н�
 	mov=0x002B64F4;offset=4;len=2;imm=0x9DEB
 	mov=0x002B64F8;offset=6;len=2;imm=0x4FD5
 
-key=0xdddfa345392183a3;id=CV064_4                                 // [8  ]: 'Нет '
+key=0xdddfa345392183a3;id=CV064_2                                 // [8  ]: 'Нет '
 // at 0x00303390 diff=12
 	mov=0x00303390;offset=0;len=2;imm=0x1E73
 	mov=0x00303394;offset=2;len=2;imm=0x8CF1
@@ -11220,6 +11290,11 @@ key=0xa3b5afa9138f0ddf;id=INS014                                  // [5  ]: ' SD
 	mov=0x0030279C;offset=2;len=2;imm=0x33CB
 	mov=0x00302794;offset=4;len=1;imm=0xA9
 
+key=0x1503e579357b1d6b;id=TITLE002                                // [3  ]: 'ru'
+// at 0x00056888 diff=4
+	mov=0x00056888;offset=0;len=2;imm=0x6819
+	mov=0x0005688C;offset=2;len=1;imm=0x7B
+
 
 //------------------------
 // [UNMATCHED LONG]
@@ -11263,10 +11338,8 @@ key=0xa3b5afa9138f0ddf;id=INS014                                  // [5  ]: ' SD
 // INS005    [k=0x6991654f57e9eb51 / 3075  len=64   ]: 'Подсчитывается размер установки...'
 // MAIN001   [k=0xc50937b367d19d15 / 107  len=33   ]: 'Произошла ошибка:'
 // MMV012    [k=0x0b71b5cf5f092905 / 3869  len=45   ]: 'Проверка обновлений игр'
-// MTP003_5  [k=0xe9e38753b99fb37f / 3240  len=36   ]: 'Ожидание: {} секунда'
 // MTP024    [k=0xe3a7e9e3d3195be9 / 4018  len=51   ]: 'Невозможно создать каталог'
 // MTP037    [k=0x7d7d119d6375bd69 / 1644  len=45   ]: 'Ошибка открытия файла: {}'
-// MTP057_5  [k=0xcd83458f0d418dfd / 2714  len=42   ]: 'Найдено {} сохранений...'
 // MTP079    [k=0x537b2ff5bbad95b3 / 1737  len=51   ]: 'Ошибка создания каталога: {}'
 // MTP084    [k=0x439bbdd37d2bbfa7 / 1477  len=19   ]: 'ВНИМАНИЕ! '
 // SAV001    [k=0x9b6d5d7d5def4fcf / 3952  len=41   ]: 'Ошибка открытия файла'
@@ -11432,7 +11505,6 @@ key=0xa3b5afa9138f0ddf;id=INS014                                  // [5  ]: ' SD
 // 0x006308D8;24
 // 0x00630A78;40
 // 0x00630BD8;1072
-// 0x00631200;72
 // 0x00631588;128
 // 0x006317E0;7912
 // 0x00633708;96
@@ -11445,9 +11517,9 @@ key=0xa3b5afa9138f0ddf;id=INS014                                  // [5  ]: ' SD
 // 0x006342B0;48
 // 0x00634448;40
 // 0x00634490;56
-// 0x00634620;288
+// 0x00634638;264
 // 0x006347F0;80
-// 0x00634940;136
+// 0x00634968;96
 // 0x006349F0;352
 // 0x00634B98;104
 // 0x00634CB8;64
@@ -11458,7 +11530,8 @@ key=0xa3b5afa9138f0ddf;id=INS014                                  // [5  ]: ' SD
 // 0x00635438;232
 // 0x006355F0;80
 // 0x00635940;1568
-// 0x00635F98;144
+// 0x00635F98;64
+// 0x00636008;32
 // 0x00636060;56
 // 0x006360E0;288
 // 0x00636238;112
@@ -11522,8 +11595,6 @@ key=0xa3b5afa9138f0ddf;id=INS014                                  // [5  ]: ' SD
 // 0x00640738;48
 // 0x006407D8;40
 // 0x00640B58;248
-// 0x00640CC8;128
-// 0x00640D70;80
 // 0x00640DE8;32
 // 0x00640E60;24
 // 0x00640ED8;48
@@ -11581,10 +11652,10 @@ key=0xa3b5afa9138f0ddf;id=INS014                                  // [5  ]: ' SD
 // [STATS]
 //------------------------
 
-// matched_full:      1130
+// matched_full:      1137
 // matched_partial:   51
 // unmatched_long:    0
 // unmatched_partial: 0
 // unmatched_short:   0
-// duplicates:        129
+// duplicates:        127
 // mismatched:        0
