@@ -16,3 +16,10 @@ translate/new_ru_849-8.txt
 translate/new_ru_849.txt
 translate/new_en_849-6.txt
 translate/new_ru_849-9.txt
+translate/new_en_849-7.txt
+translate/new_ru_849-10.txt
+sort_blueprint.py
+find_gaps.py
+.gitignore
+decode_manual.py
+extract_keys.py
