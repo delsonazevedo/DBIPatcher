@@ -6814,6 +6814,27 @@ key=0x51a747afffff1fc1;id=MTP057_5                                // [39 ]: 'Н�
 	dat=0x00634958;offset=24;len=8;imm=0xE477FA7F4F2F9F10
 	dat=0x00634960;offset=32;len=7;imm=0xA7FE7F472FA211
 
+key=0x87ddff3da5cfc7cf;id=MTP058_1                                // [29 ]: ': {:>4} сохранение'
+// at 0x00634968 diff=29
+	dat=0x00634968;offset=0;len=8;imm=0xA7A0CB039FB4E7F5
+	dat=0x00634970;offset=8;len=8;imm=0x070C7AEC1B1F461E
+	dat=0x00634978;offset=16;len=8;imm=0x3A0D4AED181F771F
+	dat=0x00634980;offset=24;len=5;imm=0x3D101F7F1F
+
+key=0xa907cb199dd1dd37;id=MTP058_2                                // [29 ]: ': {:>4} сохранения'
+// at 0x00634988 diff=29
+	dat=0x00634988;offset=0;len=8;imm=0x897AFF27A7AAFD0D
+	dat=0x00634990;offset=8;len=8;imm=0x29D64EC823015CE6
+	dat=0x00634998;offset=16;len=8;imm=0x14D77EC920016DE7
+	dat=0x006349A0;offset=24;len=5;imm=0x19120065E7
+
+key=0x2db161599d03dd0d;id=MTP058_5                                // [29 ]: ': {:>4} сохранений'
+// at 0x006349A8 diff=29
+	dat=0x006349A8;offset=0;len=8;imm=0x0DCC5567A778FD37
+	dat=0x006349B0;offset=8;len=8;imm=0xAD60E48823D35CDC
+	dat=0x006349B8;offset=16;len=8;imm=0x9061D48920D36DDD
+	dat=0x006349C0;offset=24;len=5;imm=0x5924D365DD
+
 key=0x4783c7630bd7096b;id=MTP065                                  // [78 ]: 'Невозможно получить список пользователей'
 // at 0x00634540 diff=78
 	dat=0x00634540;offset=0;len=8;imm=0xF95375B3BE0794BB
@@ -12366,6 +12387,13 @@ key=0xd9676da52bc3c18f;id=INS015                                  // [9  ]: 'А�
 // at 0xFFFFFFFF diff=0
 	mov=0xFFFFFFFF;offset=8;len=1;imm=0x8F
 
+key=0x2fff43fd55cbaf4f;id=INS027                                  // [11 ]: '[ОШБК]'
+// at 0x00627B28 diff=8
+	dat=0x00627B28;offset=0;len=8;imm=0xFF6E935585557F14
+// at 0x002FE9F4 diff=8
+	mov=0x002FE9F4;offset=8;len=2;imm=0xF2D5
+	mov=0x002FE9FC;offset=10;len=1;imm=0xCB
+
 key=0x676303e5efd3fde1;id=MMV013                                  // [13 ]: 'Тикеты'
 // at 0x006279F0 diff=8
 	dat=0x006279F0;offset=0;len=8;imm=0xD2B3B93557035F31
@@ -12769,7 +12797,8 @@ key=0x1503e579357b1d6b;id=TITLE002                                // [3  ]: 'ru'
 // 0x00627A80;16
 // 0x00627A98;8
 // 0x00627AA8;96
-// 0x00627B18;32
+// 0x00627B18;16
+// 0x00627B30;8
 // 0x00627B40;32
 // 0x00627B78;16
 // 0x00627B98;8
@@ -12816,7 +12845,6 @@ key=0x1503e579357b1d6b;id=TITLE002                                // [3  ]: 'ru'
 // 0x00634448;40
 // 0x00634638;72
 // 0x00634828;24
-// 0x00634968;96
 // 0x00634CB8;64
 // 0x00634E70;48
 // 0x006350D0;120
@@ -12896,8 +12924,8 @@ key=0x1503e579357b1d6b;id=TITLE002                                // [3  ]: 'ru'
 // [STATS]
 //------------------------
 
-// matched_full:      1268
-// matched_partial:   51
+// matched_full:      1271
+// matched_partial:   52
 // unmatched_long:    0
 // unmatched_partial: 0
 // unmatched_short:   0

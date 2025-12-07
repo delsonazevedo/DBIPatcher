@@ -13,12 +13,12 @@ Traduzir o DBI 849 do russo para o português, superando as incompatibilidades i
 ```
 
 ### O que faz:
-- Extrai **todas** as 4374 chaves de criptografia do binário DBI 849
+- Extrai **todas** as 4389 chaves de criptografia do binário DBI 849
 - Salva em `keys.849.txt`
 
 ### Resultado esperado:
 ```
-Arquivo criado: keys.849.txt (~4374 linhas)
+Arquivo criado: keys.849.txt (~4389 linhas)
 ```
 
 ---
@@ -27,11 +27,11 @@ Arquivo criado: keys.849.txt (~4374 linhas)
 
 ### Comando:
 ```bash
-sh -c "./bin/dbipatcher --new-ru --nro dbi/DBI.849.ru.nro --min 2 --keys 4374 --keygen keys.849.txt --dict translate/dict.txt > translate/new_ru_849.txt"
+sh -c "./bin/dbipatcher --new-ru --nro dbi/DBI.849.ru.nro --min 2 --keys 4389 --keygen keys.849.txt --dict translate/dict.txt > translate/new_ru_849.txt"
 ```
 
 ### O que faz:
-- Usa as 4374 chaves para escanear o NRO
+- Usa as 4389 chaves para escanear o NRO
 - Procura strings em russo (cirílico) com mínimo 2 caracteres
 - Compara com o dicionário existente para evitar duplicatas
 - Salva todas as strings encontradas
@@ -112,7 +112,7 @@ CV024;18;Просмотр раздела SYSTEM
 
 ### O que faz:
 - Escaneia o NRO usando o dicionário remapeado
-- **USA TODAS AS 4374 CHAVES**
+- **USA TODAS AS 4389 CHAVES**
 - Procura cada string do dicionário no binário
 - Para cada match, identifica os endereços de memória onde a string aparece
 - Gera um "blueprint" com instruções de patch
@@ -156,7 +156,7 @@ Saída do comando:
 ## Resumo dos Arquivos Gerados
 
 ```
-keys.849.txt              → Todas as 4374 chaves extraídas
+keys.849.txt              → Todas as 4389 chaves extraídas
 translate/new_ru_849.txt      → strings russas encontradas no DBI 849
 translate/dict.849.txt        → Dicionário remapeado completo (1076 + 355 missing)
 translate/dict.849_clean.txt  → Dicionário remapeado (só 1076 mapeados)
@@ -172,7 +172,7 @@ dbi/DBI.849.br.nro            → NRO final patcheado
 | Aspecto | DBI 845 | DBI 849 |
 |---------|---------|---------|
 | **Sistema de Chaves** | MurmurHash3 | Array extraído do binário |
-| **Número de Chaves** | Calculadas dinamicamente | 4374 chaves fixas |
+| **Número de Chaves** | Calculadas dinamicamente | 4389 chaves fixas |
 | **Compatibilidade** | Dicionário antigo funciona | Requer remapeamento |
 | **Key Index** | Baseado em hash | Baseado em posição no array |
 
@@ -182,22 +182,22 @@ dbi/DBI.849.br.nro            → NRO final patcheado
 ```bash
 
 #Procurar Strings
-./bin/dbipatcher --find-str "Невозможно распаковать " --nro dbi/DBI.849.ru.nro --keys 4374 --keygen keys.849.txt
+./bin/dbipatcher --find-str "cохранения" --nro dbi/DBI.849.br.nro --keys 4389 --keygen keys.849.txt
 
 #Procurar immediates
-./bin/dbipatcher --keys 4374 --keygen keys.849.txt --nro dbi/DBI.849.ru.nro --find-imm "Имя"
+./bin/dbipatcher --keys 4389 --keygen keys.849.txt --nro dbi/DBI.849.ru.nro --find-imm "Имя"
 
 #Decodificar offset
-./bin/dbipatcher --decode 0x00640600 --nro dbi/DBI.849.br.nro --keys 4374 --keygen keys.849.txt
+./bin/dbipatcher --decode 0x00627b20 --nro dbi/DBI.849.br.nro --keys 4389 --keygen keys.849.txt
 
 # PASSO 1: Extrair chaves
 ./bin/dbipatcher --find-keys --nro dbi/DBI.849.ru.nro > keys.849.txt
 
 # PASSO 2: Escanear strings russas
-sh -c "./bin/dbipatcher --new-ru --nro dbi/DBI.849.ru.nro --min 2 --keys 4374 --keygen keys.849.txt --dict translate/dict.txt > translate/new_ru_849.txt"
+sh -c "./bin/dbipatcher --new-ru --nro dbi/DBI.849.ru.nro --min 2 --keys 4389 --keygen keys.849.txt --dict translate/dict.txt > translate/new_ru_849-11.txt"
 
 # PASSO 2.1: Escanear strings inglês
-sh -c "./bin/dbipatcher --new-en --nro dbi/DBI.849.ru.nro --min 2 --keys 4374 --keygen keys.849.txt --dict translate/dict.txt > translate/new_en_849.txt"
+sh -c "./bin/dbipatcher --new-en --nro dbi/DBI.849.ru.nro --min 2 --keys 4389 --keygen keys.849.txt --dict translate/dict.txt > translate/new_en_849-8.txt"
 
 # PASSO 3: Remapear dicionário
 python remap_dictionary.py
