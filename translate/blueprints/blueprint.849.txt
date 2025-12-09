@@ -12064,6 +12064,73 @@ key=0x158bc125a74f0515;id=845009                                  // [37 ]: 'П�
 	dat=0x006409B8;offset=24;len=8;imm=0x353B119F77CED4AD
 	dat=0x006409C0;offset=32;len=5;imm=0x25FA327E4E
 
+key=0x0000000000000000;id=RAW002                                  // [7  ]: 'Нет'
+// at 0x0060F758 diff=7
+	dat=0x0060F758;offset=0;len=7;imm=0x0082D1B5D09DD0
+
+key=0x0000000000000000;id=RAW003                                  // [5  ]: 'Да'
+// at 0x0060F750 diff=5
+	dat=0x0060F750;offset=0;len=5;imm=0x00B0D094D0
+
+key=0x0000000000000000;id=RAW004                                  // [6  ]: ' Да'
+// at 0x0060F7C0 diff=6
+	dat=0x0060F7C0;offset=0;len=6;imm=0x00B0D094D020
+
+key=0x0000000000000000;id=RAW005                                  // [22 ]: 'Х:{}, Т:{}, РЦ:{}'
+// at 0x0060F760 diff=22
+	dat=0x0060F760;offset=0;len=8;imm=0xD0202C7D7B3AA5D0
+	dat=0x0060F768;offset=8;len=8;imm=0xA0D0202C7D7B3AA2
+	dat=0x0060F770;offset=16;len=6;imm=0x007D7B3AA6D0
+
+key=0x0000000000000000;id=RAW006                                  // [19 ]: 'Настройки'
+// at 0x0060F7C8 diff=19
+	dat=0x0060F7C8;offset=0;len=8;imm=0x82D181D1B0D09DD0
+	dat=0x0060F7D0;offset=8;len=8;imm=0xBAD0B9D0BED080D1
+	dat=0x0060F7D8;offset=16;len=3;imm=0x00B8D0
+
+key=0x0000000000000000;id=RAW007                                  // [36 ]: 'Число ходов:        {:>3}'
+// at 0x0060F7E0 diff=36
+	dat=0x0060F7E0;offset=0;len=8;imm=0xBBD081D1B8D0A7D0
+	dat=0x0060F7E8;offset=8;len=8;imm=0xD0BED085D120BED0
+	dat=0x0060F7F0;offset=16;len=8;imm=0x20203AB2D0BED0B4
+	dat=0x0060F7F8;offset=24;len=8;imm=0x3A7B202020202020
+	dat=0x0060F800;offset=32;len=4;imm=0x007D333E
+
+key=0x0000000000000000;id=RAW008                                  // [43 ]: 'Число транзисторов: {:>3}'
+// at 0x0060F808 diff=43
+	dat=0x0060F808;offset=0;len=8;imm=0xBBD081D1B8D0A7D0
+	dat=0x0060F810;offset=8;len=8;imm=0xD080D182D120BED0
+	dat=0x0060F818;offset=16;len=8;imm=0xD1B8D0B7D0BDD0B0
+	dat=0x0060F820;offset=24;len=8;imm=0xD080D1BED082D181
+	dat=0x0060F828;offset=32;len=8;imm=0x3E3A7B203AB2D0BE
+	dat=0x0060F830;offset=40;len=3;imm=0x007D33
+
+key=0x0000000000000000;id=RAW009                                  // [36 ]: 'Растущие цветы:     {}'
+// at 0x0060F838 diff=36
+	dat=0x0060F838;offset=0;len=8;imm=0x82D181D1B0D0A0D0
+	dat=0x0060F840;offset=8;len=8;imm=0xB5D0B8D089D183D1
+	dat=0x0060F848;offset=16;len=8;imm=0xD1B5D0B2D086D120
+	dat=0x0060F850;offset=24;len=8;imm=0x202020203A8BD182
+	dat=0x0060F858;offset=32;len=4;imm=0x007D7B20
+
+key=0x0000000000000000;id=RAW010                                  // [17 ]: '\x1b[31;1mГ\x1b[37;1m'
+// at 0x0060F778 diff=17
+	dat=0x0060F778;offset=0;len=8;imm=0xD06D313B31335B1B
+	dat=0x0060F780;offset=8;len=8;imm=0x6D313B37335B1B93
+	dat=0x0060F788;offset=16;len=1;imm=0x00
+
+key=0x0000000000000000;id=RAW011                                  // [17 ]: '\x1b[32;1mШ\x1b[37;1m'
+// at 0x0060F790 diff=17
+	dat=0x0060F790;offset=0;len=8;imm=0xD06D313B32335B1B
+	dat=0x0060F798;offset=8;len=8;imm=0x6D313B37335B1BA8
+	dat=0x0060F7A0;offset=16;len=1;imm=0x00
+
+key=0x1503e579357b1d6b;id=TITLE001                                // [21 ]: '{}-{} FW:{}{} SDK:{}'
+// at 0x00629D18 diff=21
+	dat=0x00629D18;offset=0;len=8;imm=0x4245C5044E566010
+	dat=0x00629D20;offset=8;len=8;imm=0x5150C5044E066651
+	dat=0x00629D28;offset=16;len=5;imm=0x7948002720
+
 //------------------------
 // [MATCHED PARTIAL]
 //------------------------
@@ -12247,6 +12314,357 @@ key=0xc3dd1b8543c5d595;id=FAILED                                  // [15 ]: '[О
 	mov=0x001ACB84;offset=10;len=2;imm=0x935F
 	mov=0x001ACB8C;offset=12;len=2;imm=0x4615
 	mov=0x001ACB94;offset=14;len=1;imm=0xDD
+
+key=0xe97fab5bc127154d;id=FAILED_2                                // [15 ]: '[ОШИБКА]'
+// at 0x00627A20 diff=8
+	dat=0x00627A20;offset=0;len=8;imm=0x39E77BF311B9C516
+// at 0x002ACEEC diff=20
+	mov=0x002ACEEC;offset=8;len=2;imm=0xC5DC
+	mov=0x002ACEF0;offset=10;len=2;imm=0x11BD
+	mov=0x002ACEF8;offset=12;len=2;imm=0xF6CB
+	mov=0x002ACF00;offset=14;len=1;imm=0x7F
+// at 0x002ACC80 diff=20
+	mov=0x002ACC80;offset=8;len=2;imm=0xC5DC
+	mov=0x002ACC84;offset=10;len=2;imm=0x11BD
+	mov=0x002ACC8C;offset=12;len=2;imm=0xF6CB
+	mov=0x002ACC94;offset=14;len=1;imm=0x7F
+// at 0x002AB360 diff=20
+	mov=0x002AB360;offset=8;len=2;imm=0xC5DC
+	mov=0x002AB364;offset=10;len=2;imm=0x11BD
+	mov=0x002AB36C;offset=12;len=2;imm=0xF6CB
+	mov=0x002AB374;offset=14;len=1;imm=0x7F
+// at 0x002AB008 diff=20
+	mov=0x002AB008;offset=8;len=2;imm=0xC5DC
+	mov=0x002AB00C;offset=10;len=2;imm=0x11BD
+	mov=0x002AB014;offset=12;len=2;imm=0xF6CB
+	mov=0x002AB01C;offset=14;len=1;imm=0x7F
+// at 0x002A8674 diff=20
+	mov=0x002A8674;offset=8;len=2;imm=0xC5DC
+	mov=0x002A8678;offset=10;len=2;imm=0x11BD
+	mov=0x002A8680;offset=12;len=2;imm=0xF6CB
+	mov=0x002A8688;offset=14;len=1;imm=0x7F
+// at 0x002A80E8 diff=20
+	mov=0x002A80E8;offset=8;len=2;imm=0xC5DC
+	mov=0x002A80EC;offset=10;len=2;imm=0x11BD
+	mov=0x002A80F4;offset=12;len=2;imm=0xF6CB
+	mov=0x002A80FC;offset=14;len=1;imm=0x7F
+// at 0x002A5C8C diff=20
+	mov=0x002A5C8C;offset=8;len=2;imm=0xC5DC
+	mov=0x002A5C90;offset=10;len=2;imm=0x11BD
+	mov=0x002A5C98;offset=12;len=2;imm=0xF6CB
+	mov=0x002A5CA0;offset=14;len=1;imm=0x7F
+// at 0x002A3F64 diff=20
+	mov=0x002A3F64;offset=8;len=2;imm=0xC5DC
+	mov=0x002A3F68;offset=10;len=2;imm=0x11BD
+	mov=0x002A3F70;offset=12;len=2;imm=0xF6CB
+	mov=0x002A3F78;offset=14;len=1;imm=0x7F
+// at 0x002A3460 diff=20
+	mov=0x002A3460;offset=8;len=2;imm=0xC5DC
+	mov=0x002A3464;offset=10;len=2;imm=0x11BD
+	mov=0x002A346C;offset=12;len=2;imm=0xF6CB
+	mov=0x002A3474;offset=14;len=1;imm=0x7F
+
+key=0x497dcba9bd4317a9;id=FAILED_3                                // [15 ]: '[ОШИБКА]'
+// at 0x00627020 diff=8
+	dat=0x00627020;offset=0;len=8;imm=0x99E51B016DDDC7F2
+// at 0x000B8104 diff=20
+	mov=0x000B8104;offset=8;len=2;imm=0xC738
+	mov=0x000B8108;offset=10;len=2;imm=0x6DD9
+	mov=0x000B8110;offset=12;len=2;imm=0x9639
+	mov=0x000B8118;offset=14;len=1;imm=0x7D
+
+key=0x7b59fd572b113f3b;id=FAILED_4                                // [15 ]: '[ОШИБКА]'
+// at 0x00627088 diff=8
+	dat=0x00627088;offset=0;len=8;imm=0xABC12DFFFB8FEF60
+// at 0x000CDC2C diff=20
+	mov=0x000CDC2C;offset=8;len=2;imm=0xEFAA
+	mov=0x000CDC30;offset=10;len=2;imm=0xFB8B
+	mov=0x000CDC38;offset=12;len=2;imm=0xA0C7
+	mov=0x000CDC40;offset=14;len=1;imm=0x59
+// at 0x000CDA20 diff=20
+	mov=0x000CDA20;offset=8;len=2;imm=0xEFAA
+	mov=0x000CDA24;offset=10;len=2;imm=0xFB8B
+	mov=0x000CDA2C;offset=12;len=2;imm=0xA0C7
+	mov=0x000CDA34;offset=14;len=1;imm=0x59
+// at 0x000CC69C diff=20
+	mov=0x000CC69C;offset=8;len=2;imm=0xEFAA
+	mov=0x000CC6A0;offset=10;len=2;imm=0xFB8B
+	mov=0x000CC6A8;offset=12;len=2;imm=0xA0C7
+	mov=0x000CC6B0;offset=14;len=1;imm=0x59
+// at 0x000CBAD4 diff=20
+	mov=0x000CBAD4;offset=8;len=2;imm=0xEFAA
+	mov=0x000CBAD8;offset=10;len=2;imm=0xFB8B
+	mov=0x000CBAE0;offset=12;len=2;imm=0xA0C7
+	mov=0x000CBAE8;offset=14;len=1;imm=0x59
+// at 0x000CB0E0 diff=20
+	mov=0x000CB0E0;offset=8;len=2;imm=0xEFAA
+	mov=0x000CB0E4;offset=10;len=2;imm=0xFB8B
+	mov=0x000CB0EC;offset=12;len=2;imm=0xA0C7
+	mov=0x000CB0F4;offset=14;len=1;imm=0x59
+// at 0x000CAF3C diff=20
+	mov=0x000CAF3C;offset=8;len=2;imm=0xEFAA
+	mov=0x000CAF40;offset=10;len=2;imm=0xFB8B
+	mov=0x000CAF48;offset=12;len=2;imm=0xA0C7
+	mov=0x000CAF50;offset=14;len=1;imm=0x59
+// at 0x000C6A44 diff=20
+	mov=0x000C6A44;offset=8;len=2;imm=0xEFAA
+	mov=0x000C6A48;offset=10;len=2;imm=0xFB8B
+	mov=0x000C6A50;offset=12;len=2;imm=0xA0C7
+	mov=0x000C6A58;offset=14;len=1;imm=0x59
+// at 0x000C6848 diff=20
+	mov=0x000C6848;offset=8;len=2;imm=0xEFAA
+	mov=0x000C684C;offset=10;len=2;imm=0xFB8B
+	mov=0x000C6854;offset=12;len=2;imm=0xA0C7
+	mov=0x000C685C;offset=14;len=1;imm=0x59
+
+key=0x4d915dc715ed5971;id=FAILED_5                                // [15 ]: '[ОШИБКА]'
+// at 0x00627630 diff=8
+	dat=0x00627630;offset=0;len=8;imm=0x9D098D6FC573892A
+// at 0x0018E6B8 diff=20
+	mov=0x0018E6B8;offset=8;len=2;imm=0x89E0
+	mov=0x0018E6BC;offset=10;len=2;imm=0xC577
+	mov=0x0018E6C4;offset=12;len=2;imm=0x0057
+	mov=0x0018E6CC;offset=14;len=1;imm=0x91
+// at 0x0018D514 diff=20
+	mov=0x0018D514;offset=8;len=2;imm=0x89E0
+	mov=0x0018D518;offset=10;len=2;imm=0xC577
+	mov=0x0018D520;offset=12;len=2;imm=0x0057
+	mov=0x0018D528;offset=14;len=1;imm=0x91
+
+key=0x1559a9ebd7d77929;id=FAILED_6                                // [15 ]: '[ОШИБКА]'
+// at 0x00627100 diff=8
+	dat=0x00627100;offset=0;len=8;imm=0xC5C179430749A972
+// at 0x000EB21C diff=20
+	mov=0x000EB21C;offset=8;len=2;imm=0xA9B8
+	mov=0x000EB220;offset=10;len=2;imm=0x074D
+	mov=0x000EB228;offset=12;len=2;imm=0xF47B
+	mov=0x000EB230;offset=14;len=1;imm=0x59
+// at 0x000E128C diff=24
+	mov=0x000E128C;offset=8;len=2;imm=0xA9B8
+	mov=0x000E1290;offset=10;len=2;imm=0x074D
+	mov=0x000E129C;offset=12;len=2;imm=0xF47B
+	mov=0x000E12A4;offset=14;len=1;imm=0x59
+
+key=0x113f73c36f75af97;id=FAILED_7                                // [15 ]: '[ОШИБКА]'
+// at 0x00627118 diff=8
+	dat=0x00627118;offset=0;len=8;imm=0xC1A7A36BBFEB7FCC
+// at 0x001305E4 diff=20
+	mov=0x001305E4;offset=8;len=2;imm=0x7F06
+	mov=0x001305E8;offset=10;len=2;imm=0xBFEF
+	mov=0x001305F0;offset=12;len=2;imm=0x2E53
+	mov=0x001305F8;offset=14;len=1;imm=0x3F
+// at 0x0012E010 diff=20
+	mov=0x0012E010;offset=8;len=2;imm=0x7F06
+	mov=0x0012E014;offset=10;len=2;imm=0xBFEF
+	mov=0x0012E01C;offset=12;len=2;imm=0x2E53
+	mov=0x0012E024;offset=14;len=1;imm=0x3F
+// at 0x0012DD4C diff=20
+	mov=0x0012DD4C;offset=8;len=2;imm=0x7F06
+	mov=0x0012DD50;offset=10;len=2;imm=0xBFEF
+	mov=0x0012DD58;offset=12;len=2;imm=0x2E53
+	mov=0x0012DD60;offset=14;len=1;imm=0x3F
+// at 0x0012C9D0 diff=20
+	mov=0x0012C9D0;offset=8;len=2;imm=0x7F06
+	mov=0x0012C9D4;offset=10;len=2;imm=0xBFEF
+	mov=0x0012C9DC;offset=12;len=2;imm=0x2E53
+	mov=0x0012C9E4;offset=14;len=1;imm=0x3F
+// at 0x0012C70C diff=20
+	mov=0x0012C70C;offset=8;len=2;imm=0x7F06
+	mov=0x0012C710;offset=10;len=2;imm=0xBFEF
+	mov=0x0012C718;offset=12;len=2;imm=0x2E53
+	mov=0x0012C720;offset=14;len=1;imm=0x3F
+// at 0x0012B4B0 diff=20
+	mov=0x0012B4B0;offset=8;len=2;imm=0x7F06
+	mov=0x0012B4B4;offset=10;len=2;imm=0xBFEF
+	mov=0x0012B4BC;offset=12;len=2;imm=0x2E53
+	mov=0x0012B4C4;offset=14;len=1;imm=0x3F
+
+key=0x5b5f7d7d37abfb75;id=FAILED_8                                // [15 ]: '[ОШИБКА]'
+// at 0x00627170 diff=8
+	dat=0x00627170;offset=0;len=8;imm=0x8BC7ADD5E7352B2E
+// at 0x00153974 diff=20
+	mov=0x00153974;offset=8;len=2;imm=0x2BE4
+	mov=0x00153978;offset=10;len=2;imm=0xE731
+	mov=0x00153980;offset=12;len=2;imm=0x20ED
+	mov=0x00153988;offset=14;len=1;imm=0x5F
+// at 0x001537EC diff=20
+	mov=0x001537EC;offset=8;len=2;imm=0x2BE4
+	mov=0x001537F0;offset=10;len=2;imm=0xE731
+	mov=0x001537F8;offset=12;len=2;imm=0x20ED
+	mov=0x00153800;offset=14;len=1;imm=0x5F
+// at 0x0015338C diff=20
+	mov=0x0015338C;offset=8;len=2;imm=0x2BE4
+	mov=0x00153390;offset=10;len=2;imm=0xE731
+	mov=0x00153398;offset=12;len=2;imm=0x20ED
+	mov=0x001533A0;offset=14;len=1;imm=0x5F
+// at 0x00152F2C diff=20
+	mov=0x00152F2C;offset=8;len=2;imm=0x2BE4
+	mov=0x00152F30;offset=10;len=2;imm=0xE731
+	mov=0x00152F38;offset=12;len=2;imm=0x20ED
+	mov=0x00152F40;offset=14;len=1;imm=0x5F
+// at 0x00152D98 diff=20
+	mov=0x00152D98;offset=8;len=2;imm=0x2BE4
+	mov=0x00152D9C;offset=10;len=2;imm=0xE731
+	mov=0x00152DA4;offset=12;len=2;imm=0x20ED
+	mov=0x00152DAC;offset=14;len=1;imm=0x5F
+// at 0x00152AF8 diff=20
+	mov=0x00152AF8;offset=8;len=2;imm=0x2BE4
+	mov=0x00152AFC;offset=10;len=2;imm=0xE731
+	mov=0x00152B04;offset=12;len=2;imm=0x20ED
+	mov=0x00152B0C;offset=14;len=1;imm=0x5F
+// at 0x00152784 diff=20
+	mov=0x00152784;offset=8;len=2;imm=0x2BE4
+	mov=0x00152788;offset=10;len=2;imm=0xE731
+	mov=0x00152790;offset=12;len=2;imm=0x20ED
+	mov=0x00152798;offset=14;len=1;imm=0x5F
+// at 0x001525D8 diff=20
+	mov=0x001525D8;offset=8;len=2;imm=0x2BE4
+	mov=0x001525DC;offset=10;len=2;imm=0xE731
+	mov=0x001525E4;offset=12;len=2;imm=0x20ED
+	mov=0x001525EC;offset=14;len=1;imm=0x5F
+
+key=0x07eb219d1d4913b5;id=FAILED_9                                // [15 ]: '[ОШИБКА]'
+// at 0x00627620 diff=8
+	dat=0x00627620;offset=0;len=8;imm=0xD773F135CDD7C3EE
+// at 0x0016D9F8 diff=20
+	mov=0x0016D9F8;offset=8;len=2;imm=0xC324
+	mov=0x0016D9FC;offset=10;len=2;imm=0xCDD3
+	mov=0x0016DA04;offset=12;len=2;imm=0x7C0D
+	mov=0x0016DA0C;offset=14;len=1;imm=0xEB
+
+key=0xaf83e3cbaf419b93;id=FAILED_10                               // [15 ]: '[ОШИБКА]'
+// at 0x006278E8 diff=8
+	dat=0x006278E8;offset=0;len=8;imm=0x7F1B33637FDF4BC8
+// at 0x00214A20 diff=20
+	mov=0x00214A20;offset=8;len=2;imm=0x4B02
+	mov=0x00214A24;offset=10;len=2;imm=0x7FDB
+	mov=0x00214A2C;offset=12;len=2;imm=0xBE5B
+	mov=0x00214A34;offset=14;len=1;imm=0x83
+
+key=0xa135f9b1876d9577;id=FAILED_11                               // [15 ]: '[ОШИБКА]'
+// at 0x00627980 diff=8
+	dat=0x00627980;offset=0;len=8;imm=0x71AD291957F3452C
+// at 0x00268468 diff=20
+	mov=0x00268468;offset=8;len=2;imm=0x45E6
+	mov=0x0026846C;offset=10;len=2;imm=0x57F7
+	mov=0x00268474;offset=12;len=2;imm=0xA421
+	mov=0x0026847C;offset=14;len=1;imm=0x35
+// at 0x002682D4 diff=20
+	mov=0x002682D4;offset=8;len=2;imm=0x45E6
+	mov=0x002682D8;offset=10;len=2;imm=0x57F7
+	mov=0x002682E0;offset=12;len=2;imm=0xA421
+	mov=0x002682E8;offset=14;len=1;imm=0x35
+// at 0x002678C4 diff=20
+	mov=0x002678C4;offset=8;len=2;imm=0x45E6
+	mov=0x002678C8;offset=10;len=2;imm=0x57F7
+	mov=0x002678D0;offset=12;len=2;imm=0xA421
+	mov=0x002678D8;offset=14;len=1;imm=0x35
+// at 0x002666C4 diff=20
+	mov=0x002666C4;offset=8;len=2;imm=0x45E6
+	mov=0x002666C8;offset=10;len=2;imm=0x57F7
+	mov=0x002666D0;offset=12;len=2;imm=0xA421
+	mov=0x002666D8;offset=14;len=1;imm=0x35
+// at 0x00266324 diff=20
+	mov=0x00266324;offset=8;len=2;imm=0x45E6
+	mov=0x00266328;offset=10;len=2;imm=0x57F7
+	mov=0x00266330;offset=12;len=2;imm=0xA421
+	mov=0x00266338;offset=14;len=1;imm=0x35
+// at 0x00261568 diff=20
+	mov=0x00261568;offset=8;len=2;imm=0x45E6
+	mov=0x0026156C;offset=10;len=2;imm=0x57F7
+	mov=0x00261574;offset=12;len=2;imm=0xA421
+	mov=0x0026157C;offset=14;len=1;imm=0x35
+// at 0x0026122C diff=20
+	mov=0x0026122C;offset=8;len=2;imm=0x45E6
+	mov=0x00261230;offset=10;len=2;imm=0x57F7
+	mov=0x00261238;offset=12;len=2;imm=0xA421
+	mov=0x00261240;offset=14;len=1;imm=0x35
+// at 0x00261034 diff=20
+	mov=0x00261034;offset=8;len=2;imm=0x45E6
+	mov=0x00261038;offset=10;len=2;imm=0x57F7
+	mov=0x00261040;offset=12;len=2;imm=0xA421
+	mov=0x00261048;offset=14;len=1;imm=0x35
+// at 0x0025F17C diff=20
+	mov=0x0025F17C;offset=8;len=2;imm=0x45E6
+	mov=0x0025F180;offset=10;len=2;imm=0x57F7
+	mov=0x0025F188;offset=12;len=2;imm=0xA421
+	mov=0x0025F190;offset=14;len=1;imm=0x35
+
+key=0x038db1cf1309571f;id=FAILED_12                               // [15 ]: '[ОШИБКА]'
+// at 0x00627A18 diff=8
+	dat=0x00627A18;offset=0;len=8;imm=0xD3156167C3978744
+// at 0x002A0CF0 diff=20
+	mov=0x002A0CF0;offset=8;len=2;imm=0x878E
+	mov=0x002A0CF4;offset=10;len=2;imm=0xC393
+	mov=0x002A0CFC;offset=12;len=2;imm=0xEC5F
+	mov=0x002A0D04;offset=14;len=1;imm=0x8D
+
+key=0x093b1b4319cd4975;id=FAILED_13                               // [15 ]: '[ОШИБКА]'
+// at 0x00627B78 diff=8
+	dat=0x00627B78;offset=0;len=8;imm=0xD9A3CBEBC953992E
+// at 0x00322B30 diff=20
+	mov=0x00322B30;offset=8;len=2;imm=0x99E4
+	mov=0x00322B34;offset=10;len=2;imm=0xC957
+	mov=0x00322B3C;offset=12;len=2;imm=0x46D3
+	mov=0x00322B44;offset=14;len=1;imm=0x3B
+
+key=0x071555ff1be17197;id=FAILED_14                               // [15 ]: '[ОШИБКА]'
+// at 0x00627CB0 diff=8
+	dat=0x00627CB0;offset=0;len=8;imm=0xD78D8557CB7FA1CC
+// at 0x00389158 diff=20
+	mov=0x00389158;offset=8;len=2;imm=0xA106
+	mov=0x0038915C;offset=10;len=2;imm=0xCB7B
+	mov=0x00389164;offset=12;len=2;imm=0x086F
+	mov=0x0038916C;offset=14;len=1;imm=0x15
+// at 0x00384F48 diff=20
+	mov=0x00384F48;offset=8;len=2;imm=0xA106
+	mov=0x00384F4C;offset=10;len=2;imm=0xCB7B
+	mov=0x00384F54;offset=12;len=2;imm=0x086F
+	mov=0x00384F5C;offset=14;len=1;imm=0x15
+// at 0x00384A38 diff=20
+	mov=0x00384A38;offset=8;len=2;imm=0xA106
+	mov=0x00384A3C;offset=10;len=2;imm=0xCB7B
+	mov=0x00384A44;offset=12;len=2;imm=0x086F
+	mov=0x00384A4C;offset=14;len=1;imm=0x15
+// at 0x003837A8 diff=20
+	mov=0x003837A8;offset=8;len=2;imm=0xA106
+	mov=0x003837AC;offset=10;len=2;imm=0xCB7B
+	mov=0x003837B4;offset=12;len=2;imm=0x086F
+	mov=0x003837BC;offset=14;len=1;imm=0x15
+// at 0x003835C8 diff=20
+	mov=0x003835C8;offset=8;len=2;imm=0xA106
+	mov=0x003835CC;offset=10;len=2;imm=0xCB7B
+	mov=0x003835D4;offset=12;len=2;imm=0x086F
+	mov=0x003835DC;offset=14;len=1;imm=0x15
+// at 0x00381C10 diff=20
+	mov=0x00381C10;offset=8;len=2;imm=0xA106
+	mov=0x00381C14;offset=10;len=2;imm=0xCB7B
+	mov=0x00381C1C;offset=12;len=2;imm=0x086F
+	mov=0x00381C24;offset=14;len=1;imm=0x15
+// at 0x00381A24 diff=20
+	mov=0x00381A24;offset=8;len=2;imm=0xA106
+	mov=0x00381A28;offset=10;len=2;imm=0xCB7B
+	mov=0x00381A30;offset=12;len=2;imm=0x086F
+	mov=0x00381A38;offset=14;len=1;imm=0x15
+// at 0x0037DA2C diff=20
+	mov=0x0037DA2C;offset=8;len=2;imm=0xA106
+	mov=0x0037DA30;offset=10;len=2;imm=0xCB7B
+	mov=0x0037DA38;offset=12;len=2;imm=0x086F
+	mov=0x0037DA40;offset=14;len=1;imm=0x15
+// at 0x0037D6F4 diff=20
+	mov=0x0037D6F4;offset=8;len=2;imm=0xA106
+	mov=0x0037D6F8;offset=10;len=2;imm=0xCB7B
+	mov=0x0037D700;offset=12;len=2;imm=0x086F
+	mov=0x0037D708;offset=14;len=1;imm=0x15
+
+key=0x89792de1f5697f0d;id=FAILED_15                               // [15 ]: '[ОШИБКА]'
+// at 0x00627CF8 diff=8
+	dat=0x00627CF8;offset=0;len=8;imm=0x59E1FD4925F7AF56
+// at 0x0039B060 diff=20
+	mov=0x0039B060;offset=8;len=2;imm=0xAF9C
+	mov=0x0039B064;offset=10;len=2;imm=0x25F3
+	mov=0x0039B06C;offset=12;len=2;imm=0x7071
+	mov=0x0039B074;offset=14;len=1;imm=0x79
 
 key=0x173bfb7313c5879d;id=RGN_JPN                                 // [13 ]: 'Япония'
 // at 0x006270C8 diff=8
@@ -12774,8 +13192,6 @@ key=0x1503e579357b1d6b;id=TITLE002                                // [3  ]: 'ru'
 // 845010    [k=0x7b61d909af5bd307 / 3947  len=25   ]: 'USB Соединение'
 // 845011    [k=0xa5e5ebdf59194b27 / 3949  len=71   ]: 'Ожидается запуск dbibackend на стороне ПК...'
 // 845012    [k=0x99a19fe3bde31f01 / 2987  len=79   ]: 'DPAD или стики для перемещения, (+) - Настройки'
-// RAW000    [k=0xa32fd783f3e33513 / 2877  len=23   ]: 'Рендеринг FB2'
-// RAW006    [k=0xbffb2d1b6ddf1f9d / 3493  len=19   ]: 'Настройки'
 
 //------------------------
 // [MISMATCHED]
@@ -12786,13 +13202,23 @@ key=0x1503e579357b1d6b;id=TITLE002                                // [3  ]: 'ru'
 // [MEMORY AREAS]
 //------------------------
 
-// 0x00000000;6451400
-// 0x006270F8;1424
-// 0x00627690;624
+// 0x00000000;6354768
+// 0x0060F7A8;24
+// 0x0060F860;96192
+// 0x00627028;96
+// 0x00627090;56
+// 0x006270F8;8
+// 0x00627108;16
+// 0x00627120;80
+// 0x00627178;1192
+// 0x00627628;8
+// 0x00627638;80
+// 0x00627690;600
+// 0x006278F0;16
 // 0x00627958;8
-// 0x00627980;24
+// 0x00627988;16
 // 0x006279A0;48
-// 0x00627A10;24
+// 0x00627A10;8
 // 0x00627A50;40
 // 0x00627A80;16
 // 0x00627A98;8
@@ -12800,11 +13226,12 @@ key=0x1503e579357b1d6b;id=TITLE002                                // [3  ]: 'ru'
 // 0x00627B18;16
 // 0x00627B30;8
 // 0x00627B40;32
-// 0x00627B78;16
+// 0x00627B80;8
 // 0x00627B98;8
 // 0x00627BA8;248
-// 0x00627CA8;72
-// 0x00627CF8;32
+// 0x00627CA8;8
+// 0x00627CB8;56
+// 0x00627D00;24
 // 0x00627D20;848
 // 0x00628080;336
 // 0x006281E0;384
@@ -12814,7 +13241,7 @@ key=0x1503e579357b1d6b;id=TITLE002                                // [3  ]: 'ru'
 // 0x00628420;16
 // 0x00628440;96
 // 0x006284D0;6056
-// 0x00629D18;2784
+// 0x00629D30;2760
 // 0x0062A810;280
 // 0x0062A948;816
 // 0x0062AE78;24
@@ -12924,10 +13351,10 @@ key=0x1503e579357b1d6b;id=TITLE002                                // [3  ]: 'ru'
 // [STATS]
 //------------------------
 
-// matched_full:      1271
-// matched_partial:   52
+// matched_full:      1282
+// matched_partial:   66
 // unmatched_long:    0
 // unmatched_partial: 0
 // unmatched_short:   0
-// duplicates:        110
+// duplicates:        108
 // mismatched:        0
